@@ -74,6 +74,12 @@ const config: Config = {
           label: 'Docusaurus',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'others',
+          position: 'left',
+          label: 'Others',
+        },
+        {
           to: '/blog',
           position: 'left',
           label: 'Blog',
