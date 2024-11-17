@@ -38,6 +38,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sh -c "$(curl -fsSL https://get.docker.com/)"
 ```
 
+### Add user to docker group
+
+```bash
+sudo usermod -aG docker $USER
+```
+
 ## Unistall
 
 ```bash
